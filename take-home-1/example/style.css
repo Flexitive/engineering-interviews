@@ -1,0 +1,18 @@
+body {
+  background: #FFF;
+  font-family: sans-serif;
+}
+body .row {
+  height: 28px;
+  line-height: 28px;
+  padding: 0 10px;
+}
+body .row:first-child {
+  border-top: 1px solid #DDD;
+}
+body .row:not(:last-child) {
+  border-bottom: 1px solid #DDD;
+}
+body .row:nth-child(odd) {
+  background: #EFEFEF;
+}

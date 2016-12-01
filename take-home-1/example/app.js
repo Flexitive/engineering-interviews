@@ -26,7 +26,8 @@ class List extends React.Component {
 
   componentDidMount() {
     window.addEventListener('scroll', () => {
-      this.setState({ offset: document.body.scrollTop });
+      const offset = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+      this.setState({ offset });
     });
   }
 

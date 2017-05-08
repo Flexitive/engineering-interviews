@@ -1,4 +1,4 @@
-#Batching Requests
+# Batching Requests
 
 We would like to display a list of 500k employees of a big corporation in a single list on a page (SPA). The `update()` function below accepts a list of indicies (positions of an employee in a list) and makes a request to the server, updating the data in a local store.
 

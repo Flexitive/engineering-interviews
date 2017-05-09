@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "name": "mafintosh",
+      "repos": [ { "_ref": "repos.0" }, { "_ref": "repos.1" } ]
+    }
+  ],
+  "repos": [
+    {
+      "name": "peerflix",
+      "tags": [ { "_ref": "tags.1" }, { "_ref": "tags.2" } ]
+    }, {
+      "name": "mongojs",
+      "tags": [ { "_ref": "tags.1" } ]
+    }
+  ],
+  "tags": [
+    "ruby",
+    "javascript",
+    "html"
+  ]
+}

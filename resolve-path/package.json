@@ -1,0 +1,10 @@
+{
+  "name": "resolve-path",
+  "version": "0.0.0",
+  "scripts": {
+    "test": "./node_modules/.bin/tap test.js --harmony"
+  },
+  "devDependencies": {
+    "tap": "10.3.2"
+  }
+}

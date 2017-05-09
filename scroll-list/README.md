@@ -1,8 +1,8 @@
-# Batching Requests
+# Scroll a Big List
 
 We would like to display a list of 500k employees of a big corporation in a single list on a page (SPA). The `update()` function below accepts a list of indicies (positions of an employee in a list) and makes a request to the server, updating the data in a local store.
 
-You can see a live example of the app (using React) running at [flexitive.github.io](https://flexitive.github.io/engineering-interviews/take-home-1/example/).
+You can see a live example of the app (using React) running at [flexitive.github.io](https://flexitive.github.io/engineering-interviews/scroll-list/example/).
 
 Expand/update the code below to **optimize for performance**. Below are some pointers to get you started. It’s better to address a few of these points fully, rather that to produce an incomplete solution to all of them. We are looking for code, not prose - you will have a chance to explain your design solutions on-site.
 

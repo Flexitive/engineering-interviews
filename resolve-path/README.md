@@ -4,13 +4,13 @@ The repo consists of a client that requests data from the server which in turn r
 
 ## Setup
 
-```
+```bash
 $ nvm use # (optional)
 $ npm install
 $ npm test
 ```
 
-## Examples
+## Usage
 
 We ask for data by passing in a path to it. As an example:
 
@@ -32,6 +32,10 @@ The db can contain references to other paths in the db using the special `{ "_re
 client.fetch('users.0.repos');
 // [ { "name": "peerflix" } ]
 ```
+
+The backend database is contained in a `db.json` flatfile which is queried by the `server.js` API. `client.js` acts as a "client-side" script making requests to the server and to begin with passes all requests through to the server without modification.
+
+All the tests are in `test.js`.
 
 ## Tasks
 

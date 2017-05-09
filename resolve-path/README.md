@@ -1,6 +1,18 @@
 # Resolve a Path
 
-The repo consists of a client that requests data from the server which in turn resolves data from the database (in `db.json`). We ask for data by passing in a path to it. As an example:
+The repo consists of a client that requests data from the server which in turn resolves data from the database (in `db.json`).
+
+## Setup
+
+```
+$ nvm use # (optional)
+$ npm install
+$ npm test
+```
+
+## Examples
+
+We ask for data by passing in a path to it. As an example:
 
 ```js
 { "users": [ { "name": "mafintosh" } ] }

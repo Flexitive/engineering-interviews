@@ -1,3 +1,5 @@
-const server = require('./server.js');
+var server = require('./server.js');
 
-exports.fetch = (path) => server.fetch(path);
+exports.fetch = function(path) {
+  return server.fetch(path);
+};
